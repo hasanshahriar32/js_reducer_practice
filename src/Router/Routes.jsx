@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { ComplexCounter } from "../components/ComplexCounter";
+import ComplexCounter from "../components/ComplexCounter";
 import SimpleCounter from "../components/SimpleCounter";
 import Main from "../layout/Main";
 
