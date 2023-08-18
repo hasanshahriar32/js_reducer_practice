@@ -12,8 +12,12 @@ const Navbar = () => {
           gap: "20px",
           position: "fixed",
           top: "20px",
+          flexWrap: "wrap",
         }}
       >
+        <span>
+          <Link to="/">Home</Link>
+        </span>
         <span>
           <Link to="/simple">Simple</Link>
         </span>

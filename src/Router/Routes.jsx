@@ -4,6 +4,7 @@ import SimpleCounter from "../components/SimpleCounter";
 import Main from "../layout/Main";
 import AdvancedCounter from "../components/AdvancedCounter";
 import GlobalCounter from "../components/GlobalCounter";
+import Home from "../components/Home";
 
 const Routes = () => {
   const router = createBrowserRouter([
@@ -11,6 +12,10 @@ const Routes = () => {
       path: "/",
       element: <Main />,
       children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
         {
           path: "/simple",
           element: <SimpleCounter />,
