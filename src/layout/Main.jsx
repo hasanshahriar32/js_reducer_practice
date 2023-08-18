@@ -7,13 +7,26 @@ const Main = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "space-between",
+        // justifyContent: "center",
         // alignItems: "center",
         height: "",
+        width: "80vw",
       }}
     >
-      <Navbar />
-      <Outlet />
+      <Navbar
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "space-between",
+          width: "100%",
+        }}
+      />
+      <Outlet
+        style={{
+          display: "flex",
+          flexDirection: "row",
+        }}
+      />
     </div>
   );
 };
