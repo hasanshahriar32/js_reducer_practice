@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <ul>
+      <ul style={{}}>
         <li>
           <Link to="/simple">Simple Counter</Link>
         </li>
